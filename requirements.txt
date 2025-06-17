@@ -1,0 +1,15 @@
+# GUI Framework
+PySide6==6.6.1
+
+# Database drivers
+mysql-connector-python==8.3.0  # For MySQL support
+# sqlite3 is built-in with Python, no need to install
+
+# Image support
+Pillow==10.2.0
+
+# Optional: .env configuration (if using .env files for DB paths or credentials)
+python-dotenv==1.0.1
+
+# Optional: for converting to .exe (don't include this in prod, but helpful for you)
+pyinstaller==6.5.0
